@@ -1,0 +1,9 @@
+### GET subscribe stock price
+GRPC localhost:9090/StockTradingService/subscribeStockPrice
+Content-Type: application/json
+
+{
+  "stock_symbol": "AAPL"
+}
+
+###

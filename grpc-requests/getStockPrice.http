@@ -1,0 +1,9 @@
+### GET stock price
+GRPC localhost:9090/StockTradingService/getStockPrice
+Content-Type: application/json
+
+{
+  "stock_symbol": "GOOGL"
+}
+
+###

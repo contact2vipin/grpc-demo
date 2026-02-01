@@ -1,0 +1,11 @@
+### POST place bulk order client streaming
+POST http://localhost:8080/api/stock/bulk-order
+Content-Type: application/json
+
+[
+  { "orderId": "1", "stockSymbol": "AAPL", "quantity": 10, "price": 200, "orderType": "BUY" },
+  { "orderId": "2", "stockSymbol": "AMZN", "quantity": 10, "price": 100, "orderType": "BUY" },
+  { "orderId": "3", "stockSymbol": "GOOGL", "quantity": 10, "price": 150, "orderType": "BUY" }
+]
+
+###
